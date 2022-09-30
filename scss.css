@@ -472,3 +472,8 @@ footer .right .menu__bottom li {
 }
 
 /*# sourceMappingURL=scss.css.map */
+.numb {
+  color: #4347BD;
+  font-weight: bolder;
+  font-size: 13px;
+}
