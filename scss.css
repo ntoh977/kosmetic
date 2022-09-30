@@ -355,4 +355,120 @@ footer .right .menu__bottom li {
   filter: brightness(0) saturate(100%) invert(30%) sepia(82%) saturate(4452%) hue-rotate(229deg) brightness(100%) contrast(96%);
 }
 
+@media (max-width: 1180px) {
+  .content__top {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1080px) {
+  .containet__content-bottoms {
+    display: flex;
+    gap: 164px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .containet__content-bottoms .left {
+    width: 100%;
+  }
+  .containet__content-bottoms .left img {
+    width: 100%;
+  }
+  .containet__content-bottoms .left .menbottom {
+    width: 100%;
+    left: 0;
+  }
+
+  .acne__block-container .one__line {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 750px) {
+  .top {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 644px) {
+  .content__top .left {
+    padding: 20px;
+  }
+}
+@media (max-width: 596px) {
+  .top .menu {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .top .menu {
+    padding-left: 20px;
+  }
+
+  .conteiner__blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .block__inner img {
+    width: 100%;
+  }
+}
+@media (max-width: 516px) {
+  .content__top .right img {
+    width: 100%;
+    margin: 70px 0;
+  }
+
+  .telephone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .title__center {
+    margin-top: 20px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .right .menu__bottom {
+    display: flex;
+    gap: 40px;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 412px) {
+  .top .left {
+    flex-wrap: wrap;
+  }
+
+  .top .btn__top {
+    font-size: 11px;
+  }
+
+  .mod {
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 20px;
+    color: #F0BCA3;
+  }
+}
+#top {
+  position: absolute;
+  left: 72px;
+  transform: translateY(-93px);
+}
+
 /*# sourceMappingURL=scss.css.map */
