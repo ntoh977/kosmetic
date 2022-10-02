@@ -452,7 +452,9 @@ footer .right .menu__bottom li {
   .top .left {
     flex-wrap: wrap;
   }
-
+  #linkslot_345817 img{
+    width: 100%;
+  }
   .top .btn__top {
     font-size: 11px;
   }
@@ -476,7 +478,4 @@ footer .right .menu__bottom li {
   color: #4347BD;
   font-weight: bolder;
   font-size: 13px;
-}
-#linkslot_345817 img{
-  width: 100%;
 }
