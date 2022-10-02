@@ -487,9 +487,7 @@ footer .right .menu__bottom li {
     justify-content: center;
   }
 }
-#linkslot_345817 img {
-  width: unset;
-}
+
 @media (max-width: 412px) {
   .top .left {
     flex-wrap: wrap;
